@@ -1,0 +1,35 @@
+assignment 3
+assignment 3:-
+
+#include<stdio.h>
+int main()
+{
+    int a=45;
+    int b=35;
+    printf("the valus of a is %d\n",a);
+    printf("the value of b is %d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the valus of a is %d\n",a);    printf("the valus of b is %d\n",b);
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    int a=45;
+    int b=35;
+    int c;
+    printf("the valus of a is %d\n",a);
+    printf("the value of b is %d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("the valus of a is %d\n",a);
+    printf("the valus of b is %d\n",b);
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
