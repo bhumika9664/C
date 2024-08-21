@@ -1,0 +1,37 @@
+c assignment 1st
+31 july assignment:-
+Q1 
+#include<stdio.h>
+int main()
+{
+    printf("Govindm,Vaishnavi,Aniket,Kashish,Vedangi");
+    return 0;
+}
+Q2
+#include<stdio.h>
+int main()
+{
+    printf("India,America,Iran,Indonashia,Iraq");
+    return 0;
+}
+Q3
+#include<stdio.h>
+int main()
+{
+    printf("kota,bundi,bara,jaipur,udaipur");
+    return 0;
+}
+Q4
+#include<stdio.h>
+int main()
+{
+    printf("ice cream,roti,pizza,dosa,frenchfries");
+    return 0;
+}
+Q5
+#include<stdio.h>
+int main()
+{
+    printf("chaistaw,the micky cafe ,the rose cafe and resort,black heart cafe,foodie arena");
+    return 0;
+}
