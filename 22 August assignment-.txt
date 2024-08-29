@@ -1,0 +1,85 @@
+22 August assignment:-
+
+1.#include<stdio.h>
+void show();
+int main()
+{
+    show();
+    return 0;
+}
+void show()
+{
+    printf("Hello World");
+}
+--------------------------------------------------------------------------------------------
+2.
+#include<stdio.h>
+void add();
+void sub();
+void multi();
+void div();
+int main()
+{
+    char a;
+    printf("enter a single character:-");
+    scanf("%c",&a);
+    if(a=='a')
+    {
+    add();
+    }
+    else if(a=='s')
+    {
+    sub();
+    }
+    else if(a=='m')
+    {
+    multi();
+    }
+    else if(a=='d')
+    {
+    div();
+    }
+    else 
+    {
+        printf("input is not valid");
+    }
+    return 0;
+}
+void add()
+{
+    int a,b,c;
+    printf("enter the value of a and b:-");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+}
+void sub()
+{
+    int a,b,c;
+    printf("enter the value of a and b:-");
+    scanf("%d%d",&a,&b);
+    c=a-b;
+    printf("%d",c);
+}
+void multi()
+{
+    int a,b,c;
+    printf("enter the value of a and b:-");
+    scanf("%d%d",&a,&b);
+    c=a*b;
+    printf("%d",c);
+}
+void div()
+{
+    int a,b,c;
+    printf("enter the value of a and b:-");
+    scanf("%d%d",&a,&b);
+    c=a/b;
+    printf("%d",c);
+}
+----------------------------------------------------------------------------------------
+3.
+
+
+
+
