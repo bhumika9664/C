@@ -1,0 +1,190 @@
+9 August assignment:-
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    int sum=0;
+    while(a<=10)
+    {
+        sum=sum+a;
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+------------------------------------------------------------------------------------------------
+2.
+#include<stdio.h>
+int main()
+{
+    int num=342484;
+    int count=0;
+    while(num>0)
+    {
+        num=num/10;
+        count++;
+    }
+    printf("%d",count);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------
+3.
+#include<stdio.h>
+int main()
+{
+    int n=563;
+    int rem,sum=0;
+    while(n>0)
+    {
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+--------------------------------------------------------------------------------------------------
+4.
+#include<stdio.h>
+int main()
+{
+    int n=12321;
+    int temp=n,rem,sum=0;
+    while(n>0)
+    {
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    if(temp==sum)
+    {
+        printf("parindrom");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------------
+5.
+#include<stdio.h>
+int main()
+{
+    int n=153;
+    int temp=n;
+    int sum=0;
+    int rem;
+    while(n>0)
+    {
+        rem=n%10;
+        sum=sum+rem*rem*rem;
+        n=n/10;
+    }
+    if(temp==sum)
+    {
+        printf("armstrong number");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+-------------------------------------------------------------------------------------
+6.
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='e')
+    {
+        int num=1;
+        int sum=0;
+        while(num<=10)
+        {
+            if(num%2==0)
+            {
+                sum=sum+num;
+            }
+            num++;
+        }
+        printf("%d",sum);
+    }
+    if(a=='o')
+    {
+        int num=1;
+        int sum=0;
+        while(num<=10)
+        {
+            if(num%2!=0)
+            {
+                sum=sum+num;
+            }
+            num++;
+        }
+        printf("%d",sum);
+    }
+    return 0;
+}#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='e')
+    {
+        int num=1;
+        int sum=0;
+        while(num<=10)
+        {
+            if(num%2==0)
+            {
+                sum=sum+num;
+            }
+            num++;
+        }
+        printf("%d",sum);
+    }
+    if(a=='o')
+    {
+        int num=1;
+        int sum=0;
+        while(num<=10)
+        {
+            if(num%2!=0)
+            {
+                sum=sum+num;
+            }
+            num++;
+        }
+        printf("%d",sum);
+    }
+    return 0;
+}
+----------------------------------------------------------------------------------------------------
+8.
+#include<stdio.h>
+int main()
+{
+    int num,temp,square,sum=0;
+    square=num*num;
+    temp==square;
+    while(temp>0)
+    {
+        sum=sum+temp%10;
+        temp=temp/10;
+    }
+    if(sum==num)
+    {
+        printf("neon");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
